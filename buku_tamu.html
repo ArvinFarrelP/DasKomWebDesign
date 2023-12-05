@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--buku_tamu.html-->
+
+  <head>
+    <title>Buku Tamu</title>
+  </head>
+
+  <body>
+    <a id="atas"></a>
+    <!--start navbar-->
+    <div style="display: flex; justify-content: center">
+      <img src="./img/Logo-Udinus-Official.png" alt="UDINUS Logo" width="200" />
+    </div>
+    <center>
+      <h1>Dinus Student Blog</h1>
+      <h2>Arvin Farrel Pramuditya</h2>
+      <hr />
+      <a href="Beranda.html">Beranda</a>
+      <br />
+      <a href="profil.html">Profil</a>
+      <br />
+      <a href="./KuliahPertama/Artikel.html">Artikel</a>
+      <br />
+      <a href="#">Buku Tamu</a>
+      <hr />
+    </center>
+    <!--end navbar-->
+    <center>
+      <h2>Form Buku Tamu</h2>
+      <form>
+        Nama Lengkap <br />
+        <input type="text" name="nama_lengkap" size="55" /> <br /><br />
+        Jenis Kelamin :<br />
+        Laki Laki
+        <input type="radio" name="jenis_kelamin" value="L" /> Perempuan
+        <input type="radio" name="jenis_kelamin" value="P" /> <br /><br />
+        Alamat Tinggal :<br />
+        <input type="text" name="alamat_tinggal" size="55" /> <br /><br />
+        Email :<br />
+        <input type="text" name="email" size="55" /> <br /><br />
+        Aktif Pada Sosial Media : <br />
+        <input type="checkbox" name="facebook" value="Ya" /> Facebook
+        <input type="checkbox" name="instagram" value="Ya" /> Instagram
+        <input type="checkbox" name="x" value="Ya" /> X
+        <input type="checkbox" name="path" value="Ya" /> Path <br /><br />
+        Mengetahui Web Ini Dari Mana : <br />
+        <select name="info">
+          <option selected="select">-=Pilih=-</option>
+          <option value="web udinus">Web Udinus</option>
+          <option value="surat kabar">Surat Kabar</option>
+          <option value="teman">Teman</option>
+          <option value="browsing">Browsing</option>
+        </select>
+        <br /><br />
+        Pesan : <br />
+        <textarea name="pesan" cols="55" rows="5"></textarea>
+        <br /><br />
+        <button type="submit">Kirim!</button>
+        <button type="reset">Batal</button>
+        <!--Coba diisi ya-->
+        <!--Jika klik Kirim, tidak bereaksi apa-apa-->
+        <!--Jika klik Batal, semua inputan hilang-->
+      </form>
+    </center>
+    <!--start footer-->
+    <p align="center"><b>Copyright @2023 ArvinFarrelP</b></p>
+    <p align="center"><a href="#atas">Ke Atas</a></p>
+    <!--end footer-->
+  </body>
+</html>
